@@ -18,7 +18,7 @@
 
     - name: setting the roles in tomcat-user.xml file
       template:
-        src: tomcat-users.xml
+        src: user.xml
         dest: /root/tomcat/conf/tomcat-users.xml
 
     - name: delete two lines in context.xml
